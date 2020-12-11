@@ -1,0 +1,10 @@
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\JunkYard01\bin\Debug\JunkYard01.exe.config
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\JunkYard01\bin\Debug\JunkYard01.exe
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\JunkYard01\bin\Debug\JunkYard01.pdb
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\JunkYard01\bin\Debug\Challenge2.Repos.dll
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\JunkYard01\bin\Debug\Challenge2.Repos.pdb
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\JunkYard01\obj\Debug\JunkYard01.csprojAssemblyReference.cache
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\JunkYard01\obj\Debug\JunkYard01.csproj.CoreCompileInputs.cache
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\JunkYard01\obj\Debug\JunkYard01.csproj.CopyComplete
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\JunkYard01\obj\Debug\JunkYard01.exe
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\JunkYard01\obj\Debug\JunkYard01.pdb
