@@ -135,8 +135,15 @@ namespace Challenge2.Program
         private void DisplayAllClaims()
         {
             Console.Clear();
-            Claim claim = _ClaimRepo.GetNextClaim();
-            DisplayClaims(claim);
+            var claim = _ClaimRepo.GetClaimQueue();
+            var header = String.Format("{0,-12}{1,8}{2,30}{3,8}{4,20}{5,20}{6,12}\n",
+                               "Claim ID", "Type", "Description", "Amount", "Date of Incident", "Date of Claim", "Is Valid");
+            Console.WriteLine(header);
+            foreach (Claim claims in claim)
+            {
+                DisplayClaims(claims);
+
+            }
 
         }
 
@@ -152,24 +159,17 @@ namespace Challenge2.Program
 
         private void DisplayClaims(Claim claim)
         {
-            Console.WriteLine($"{claim.ClaimID,-10}{claim.ClaimType,-10}{claim.Description,-10}{claim.ClaimAmount,-10}{claim.DateOfIncident, -10}{claim.DateOfClaim,-10}{claim.IsValid,-10}");
+            var output = String.Format("{0,-12}{1,8}{2,30}{3,8}{4,20}{5,20}{6,12}",
+                                   claim.ClaimID, claim.ClaimType, claim.Description, claim.ClaimAmount, claim.DateOfIncident.ToShortDateString(), claim.DateOfClaim.ToShortDateString(), claim.IsValid);
+
+            Console.WriteLine(output);
         }
 
 
         private void DisplayNextInQueue()
         {
             Console.Clear();
-            Console.WriteLine("Do you want to deal with the next claim?");
-            string input = Console.ReadLine();
-            switch(input)
-            {
-                case "y":
-                    NextClaim();
-                    break;
-                case "n":
-                    UIMenu();
-                    break;
-            }
+            NextClaim();
         }
 
 
@@ -280,14 +280,21 @@ namespace Challenge2.Program
 
         private void DeleteExistingClaim()
         {
-            DisplayAllClaims();
-
-            Console.WriteLine("\nEnter the unique ID of the Claim you'd like to handle");
-
-            string input = Console.ReadLine();
+            DisplayNextInQueue();
+            Console.WriteLine("Do you want to deal with this claim now? (y/n)");
+            string input = Console.ReadLine().ToLower();
+            bool wasDeleted = false;
+            switch (input)
+            {
+                case "y":
+                    wasDeleted = _ClaimRepo.RemoveClaimFromQueue();
+                    break;
+                case "n":
+                    UIMenu();
+                    break;
+            }
 
             //Call the Delete Method
-            bool wasDeleted = _ClaimRepo.RemoveClaimFromQueue(input);
 
             if (wasDeleted)
             {

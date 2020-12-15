@@ -21,8 +21,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge3.Repos", "Challen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge3.UnitTest", "Challenge3.UnitTest\Challenge3.UnitTest.csproj", "{48BAB93C-8C36-4A7B-B295-1E71A2248BE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JunkYard01", "JunkYard01\JunkYard01.csproj", "{8B2D99C9-EDE7-47B2-AD23-80C98503C31A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,10 +63,6 @@ Global
 		{48BAB93C-8C36-4A7B-B295-1E71A2248BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48BAB93C-8C36-4A7B-B295-1E71A2248BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48BAB93C-8C36-4A7B-B295-1E71A2248BE9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8B2D99C9-EDE7-47B2-AD23-80C98503C31A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B2D99C9-EDE7-47B2-AD23-80C98503C31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B2D99C9-EDE7-47B2-AD23-80C98503C31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B2D99C9-EDE7-47B2-AD23-80C98503C31A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

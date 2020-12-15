@@ -44,10 +44,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
+    <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Challenge3.Repos\Challenge3.Repos.csproj">
+      <Project>{978320a6-6ce7-4a63-a279-752c73b2e6bc}</Project>
+      <Name>Challenge3.Repos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Challenge3.UnitTest\Challenge3.UnitTest.csproj">
+      <Project>{48bab93c-8c36-4a7b-b295-1e71a2248be9}</Project>
+      <Name>Challenge3.UnitTest</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

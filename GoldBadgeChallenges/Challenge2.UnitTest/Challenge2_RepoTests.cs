@@ -20,7 +20,7 @@ namespace Challenge2.UnitTest
         }
         //Add Method
         [TestMethod]
-        public void AddToMenu_ShouldGetNotNull()
+        public void AddToQueue_ShouldGetNotNull()
         {
             //Arrange --> Setting up the Playing Field
             Claim claim = new Claim("1", ClaimType.Car, "Car accident on 465", 400.00, DateTime.Parse("2018-04-25"), DateTime.Parse("2018-04-27"), true);
@@ -67,12 +67,12 @@ namespace Challenge2.UnitTest
         }
 
         [TestMethod]
-        public void DeleteMeal_ShouldReturnTrue()
+        public void DeleteClaim_ShouldReturnTrue()
         {
             //Arrange
 
             //Act
-            bool deleteResult = _claimDirectory.RemoveClaimFromQueue(_claim.ClaimID);
+            bool deleteResult = _claimDirectory.RemoveClaimFromQueue();
 
             //Assert
             Assert.IsTrue(deleteResult);

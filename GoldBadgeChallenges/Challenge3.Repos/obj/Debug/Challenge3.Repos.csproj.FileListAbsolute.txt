@@ -1,0 +1,6 @@
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\Challenge3.Repos\obj\Debug\Challenge3.Repos.csprojAssemblyReference.cache
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\Challenge3.Repos\obj\Debug\Challenge3.Repos.csproj.CoreCompileInputs.cache
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\Challenge3.Repos\bin\Debug\Challenge3.Repos.dll
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\Challenge3.Repos\bin\Debug\Challenge3.Repos.pdb
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\Challenge3.Repos\obj\Debug\Challenge3.Repos.dll
+C:\Users\18144\Desktop\ElevenFiftyProjects\DotNetProjects\RJA3 GoldBadgeChallenges\GoldBadgeChallenges\Challenge3.Repos\obj\Debug\Challenge3.Repos.pdb
