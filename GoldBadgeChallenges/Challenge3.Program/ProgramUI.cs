@@ -143,8 +143,7 @@ namespace Challenge3.Program
 
             if (badge != null)
             {
-                Console.WriteLine($" Badge ID Number: {badge.BadgeID}\n" +
-                    $" Door Access: {badge.DoorNames}");
+                DisplayBadgeInfo(badge);
             }
             else
             {

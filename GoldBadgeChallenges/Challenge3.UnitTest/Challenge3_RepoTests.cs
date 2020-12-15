@@ -62,8 +62,8 @@ namespace Challenge3.UnitTest
         }
 
         [DataTestMethod]
-        [DataRow("1", true)]
-        [DataRow("2", false)]
+        [DataRow(1, true)]
+        [DataRow(2, false)]
         public void UpdateExistingBadge_ShouldMatchGivenBool(int originalName, bool shouldUpdate)
         {
             //Arrange

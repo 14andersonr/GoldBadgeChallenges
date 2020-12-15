@@ -55,13 +55,8 @@ namespace Challenge3.Repos
 
             int initialCount = _badgeDirectory.Count;
 
-            foreach (var item in _badgeDirectory)
-            {
-                if (item.Key==dictKey)
-                {
-                    _badgeDirectory.Remove(badge.BadgeID);
-                }
-            }
+            _badgeDirectory.Remove(badge.BadgeID);
+
 
             if (initialCount > _badgeDirectory.Count)
             {
